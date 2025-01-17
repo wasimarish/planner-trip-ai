@@ -2,9 +2,9 @@ import { db } from '@/service/FirebaseConfig';
 import { doc, getDoc } from 'firebase/firestore';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import InfoSection from '../components/InfoSection.jsx';
-import Hotels from '../components/Hotels.jsx';
-import PlacesToVisit from '../components/PlacesToVisit.jsx';
+import InfoSection from '../cmponent/InfoSection.jsx';
+import Hotels from '../cmponent/Hotels.jsx';
+import PlacesToVisit from '../cmponent/PlacesToVisit.jsx';
 
 
 
