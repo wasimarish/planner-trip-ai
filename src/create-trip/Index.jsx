@@ -1,6 +1,6 @@
-import { Button } from '@/Components/ui/button';
-import { Input } from '@/Components/ui/input';
-import { AI_PROMPT, SelectBudgetOptions, SelectTravelsList } from '@/Constants/Option';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { AI_PROMPT, SelectBudgetOptions, SelectTravelsList } from '@/constants/Option';
 import { chatSession } from '@/Service/AIModal';
 import React, { useEffect, useState } from 'react';
 import GooglePlacesAutocomplete from 'react-google-places-autocomplete';
@@ -12,7 +12,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/Components/ui/dialog";
+} from "@/components/ui/dialog";
 import { useGoogleLogin } from '@react-oauth/google';
 import axios from 'axios';
 import { doc, setDoc } from 'firebase/firestore';

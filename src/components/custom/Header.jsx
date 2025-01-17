@@ -4,7 +4,7 @@ import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/Components/ui/popover";
+} from "@/components/ui/popover";
 import { googleLogout, useGoogleLogin } from '@react-oauth/google';
 import axios from 'axios';
 import {
@@ -14,7 +14,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/Components/ui/dialog";
+} from "@/components/ui/dialog";
 
 const Header = ({ onGenerateTrip }) => {
   const user = JSON.parse(localStorage.getItem('user'));
