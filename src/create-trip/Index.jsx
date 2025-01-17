@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { AI_PROMPT, SelectBudgetOptions, SelectTravelsList } from '@/constants/Option';
-import { chatSession } from '@/Service/AIModal';
+import { chatSession } from '@/service/AIModal';
 import React, { useEffect, useState } from 'react';
 import GooglePlacesAutocomplete from 'react-google-places-autocomplete';
 import { toast } from 'sonner';
@@ -16,7 +16,7 @@ import {
 import { useGoogleLogin } from '@react-oauth/google';
 import axios from 'axios';
 import { doc, setDoc } from 'firebase/firestore';
-import { db } from '@/Service/FirebaseConfig';
+import { db } from '@/service/FirebaseConfig';
 import { useNavigate, useNavigation } from 'react-router-dom';
 
 // import Autocomplete from "react-google-autocomplete";

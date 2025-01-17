@@ -1,10 +1,10 @@
-import { db } from '@/Service/FirebaseConfig';
+import { db } from '@/service/FirebaseConfig';
 import { doc, getDoc } from 'firebase/firestore';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import InfoSection from '../Components/InfoSection';
-import Hotels from '../Components/Hotels';
-import PlacesToVisit from '../Components/PlacesToVisit';
+import InfoSection from '../components/InfoSection';
+import Hotels from '../components/Hotels';
+import PlacesToVisit from '../components/PlacesToVisit';
 
 const Index = () => {
   const { tripId } = useParams();
