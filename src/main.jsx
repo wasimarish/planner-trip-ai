@@ -4,12 +4,12 @@ import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter } from 'react-router-dom'
 import { RouterProvider } from 'react-router'
-import Index from './Create-trip/Index.jsx'
-import Header from './Components/Custom/Header'
+import Index from './create-trip/Index.jsx'
+import Header from './Components/Custom/Header.jsx'
 import { Toaster } from './Components/ui/sonner'
 import { GoogleOAuthProvider } from '@react-oauth/google'
-import Viewtrip from './Viewtrip/[tripId]/Index'
-import MyTrips from './My-trips'
+import Viewtrip from './view-trip/[tripId]/Index.jsx'
+import MyTrips from './my-trips/Index.jsx'
 
 const router=createBrowserRouter([
   {
