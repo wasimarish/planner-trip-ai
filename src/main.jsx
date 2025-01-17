@@ -5,8 +5,8 @@ import App from './App.jsx'
 import { createBrowserRouter } from 'react-router-dom'
 import { RouterProvider } from 'react-router'
 import Index from './create-trip/index.jsx'  // Changed Index.jsx to index.jsx
-import Header from './Components/Custom/Header.jsx'
-import { Toaster } from './Components/ui/sonner'
+import Header from './components/custom/Header.jsx'
+import { Toaster } from './components/ui/sonner'
 import { GoogleOAuthProvider } from '@react-oauth/google'
 import Viewtrip from './view-trip/[tripId]/index.jsx'  // Changed Index.jsx to index.jsx
 import MyTrips from './my-trips/index.jsx'  // Changed Index.jsx to index.jsx
