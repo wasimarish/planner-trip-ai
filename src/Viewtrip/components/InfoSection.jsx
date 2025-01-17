@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { GetPlaceDetails, PHOTO_REF_URL } from '../../service/GlobalApi.jsx';
+import { GetPlaceDetails, PHOTO_REF_URL } from '../../Service/GlobalApi.jsx';
 
 
 
